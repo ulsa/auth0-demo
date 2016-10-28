@@ -18,7 +18,7 @@ authentication. The client should have Google authentication enabled.
 
 To build a standalone jar, run:
 
-    lein ring uberjar
+    lein uberjar
 
 Run it like this:
 
