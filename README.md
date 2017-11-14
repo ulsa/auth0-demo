@@ -41,7 +41,7 @@ variables.
 The options in the table below are shown as Clojure keywords, eg `:auth-domain`.
 Those are used in the `profiles.clj` file, which is useful when running the
 system using Leiningen, running a REPL using Leiningen, or running tests using
-Leiningen. The file should looks like this:
+Leiningen. The file should look like this:
 
     {:dev-overrides
       {:env {:auth-domain "cljdemo.eu.auth0.com"
